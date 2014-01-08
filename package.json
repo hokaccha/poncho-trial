@@ -1,0 +1,13 @@
+{
+  "name": "poncho-trial",
+  "version": "0.0.0",
+  "description": "poncho trial",
+  "dependencies": {
+    "poncho": "0.1.1",
+    "coveralls": "2.6.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/poncho -R lcov test.html | ./node_modules/.bin/coveralls"
+  },
+  "main": "index.js"
+}
